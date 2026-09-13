@@ -1,10 +1,3 @@
-
-adv_app.py.py
-Page
-1
-/
-1
-100%
 import streamlit as st
 import pickle
 import numpy as np
@@ -24,4 +17,3 @@ if st.button('Predict Sales'):
     input_data = np.array([[TV, Radio, Newspaper]])
     prediction = model.predict(input_data)[0]
     st.success(f'Predicted Sales: {prediction:.2f}')
-Displaying adv_app.py.py.
